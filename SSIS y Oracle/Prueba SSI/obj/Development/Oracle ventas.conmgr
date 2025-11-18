@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="Oracle ventas"
+  DTS:DTSID="{57197FAB-CC59-40FC-B924-C99209DF49D6}"
+  DTS:Description="CompFileConnection"
+  DTS:CreationName="FLATFILE">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:Format="Delimited"
+      DTS:LocaleID="3082"
+      DTS:HeaderRowDelimiter="_x000D__x000A_"
+      DTS:ColumnNamesInFirstDataRow="True"
+      DTS:RowDelimiter=""
+      DTS:TextQualifier="_x003C_none_x003E_"
+      DTS:CodePage="65001"
+      DTS:ConnectionString="C:\Users\LOSE\Documents\Archivos BDII\Archivos de entrada Proyecto\Archivos de entrada Proyecto\Oracle\AC01.vent.txt">
+      <DTS:FlatFileColumns>
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Fecha"
+          DTS:DTSID="{FB2386D5-FE11-43A1-BC45-0447ED6680EE}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="CodigoCliente"
+          DTS:DTSID="{1CA47414-CD6D-439F-AAC8-4C86FD012125}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="NombreCliente"
+          DTS:DTSID="{509F4596-CDEC-4EA2-8441-3414057D6283}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="TipoCliente"
+          DTS:DTSID="{F7CB1EF0-33D3-45BD-A0D1-D98A58376EA1}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="DireccionCliente"
+          DTS:DTSID="{3E912EA8-D295-419C-ACCB-D6D82CB17F55}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="NumeroCliente"
+          DTS:DTSID="{3EC19DA8-CF54-4430-B98A-BF1B64F45BC2}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="CodVendedor"
+          DTS:DTSID="{4780C343-3EAE-49C2-A605-6F3A3D6F86D8}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="NombreVendedor"
+          DTS:DTSID="{7879D85F-6968-4E20-8C5D-255D9C706B25}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Vacacionista"
+          DTS:DTSID="{282DC448-4EDA-40FE-AF48-A1D6DDBC944F}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="CodProducto"
+          DTS:DTSID="{BA841784-790A-4BCB-88F9-60272B3104BB}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="NombreProducto"
+          DTS:DTSID="{3B992501-EC7D-49E0-B132-4A90B9001FBE}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="MarcaProducto"
+          DTS:DTSID="{3C6A2B28-7EB8-4AE7-B81A-92075E5FC78F}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Categoria"
+          DTS:DTSID="{F3081017-6DFA-4B8F-8057-7A802ED5B943}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="SodSuSursal"
+          DTS:DTSID="{EF18C5F1-E8BE-4EAE-9FE9-56ABCBE1CA6B}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="NombreSucursal"
+          DTS:DTSID="{49CB1F72-2B35-4A0B-BE7A-A7617A6F222C}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="DireccionSucursal"
+          DTS:DTSID="{832087F6-1380-4689-9DBE-6CC55E3E5FB0}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Region"
+          DTS:DTSID="{A7F53B64-9BC1-4331-99A8-6D0452810904}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:MaximumWidth="500"
+          DTS:DataType="130"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Departamento"
+          DTS:DTSID="{673B9111-9D7B-4111-85CB-13DA7F5E8892}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x007C_"
+          DTS:DataType="131"
+          DTS:DataPrecision="18"
+          DTS:TextQualified="True"
+          DTS:ObjectName="Unidades"
+          DTS:DTSID="{5BD2A622-4A93-4805-83E2-A1A894920EFF}"
+          DTS:CreationName="" />
+        <DTS:FlatFileColumn
+          DTS:ColumnType="Delimited"
+          DTS:ColumnDelimiter="_x000D__x000A_"
+          DTS:DataType="14"
+          DTS:TextQualified="True"
+          DTS:ObjectName="PrecioUnitario"
+          DTS:DTSID="{FFF9667F-CF79-4456-AE8E-ACBDD77E6311}"
+          DTS:CreationName="" />
+      </DTS:FlatFileColumns>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

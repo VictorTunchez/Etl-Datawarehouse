@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost_1521_XEPDB1.VICTOR"
+  DTS:DTSID="{FA344DD6-8672-4F8A-B225-CB052FC2426C}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost:1521/XEPDB1;User ID=VICTOR;Provider=OraOLEDB.Oracle.1;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmQ3b5KKXIkGrY4zEt6r5/wAAAAACAAAAAAAQZgAAAAEAACAAAADG0U3z5nM+PiUaGPm7RkBEOirCTW3mZ7BJmJjeTNYBPgAAAAAOgAAAAAIAACAAAAApEhFn60j3UHsDnxBgWrvIz95PUHvFIT1UCQymHjMbJ4AAAAAUZJ4y+V6KJSeD1q3WoMEl3kDs6JUt16dZKhhHaRnMW651mmI/QKNoQa4NPFwzLPlPDfKxNNfpO8C8liYeaChVenAwDFv5a48UC9KuZ7BVe+IIMxxN/jpDlZ5jOzafpIUjI3tnWss6owlo7nN/wcuKjS9FAVuhVyhpIg8b9q5FGkAAAAAXIhONC1mTCEk2iC50yalBBzNF3zILTI05i/uxDRBz0vJYc0/nxwdgqtkBhr8PlP0dvZcWUkTl5k9+WwAIQNOM</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

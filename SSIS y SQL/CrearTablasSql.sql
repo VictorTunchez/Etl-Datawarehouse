@@ -1,0 +1,42 @@
+CREATE TABLE Compras(
+	[Fecha] date NULL,
+	[CodProveedor] [nvarchar](10) NULL,
+	[NombreProveedor] [nvarchar](250) NULL,
+	[DireccionProveedor] [nvarchar](500) NULL,
+	[NumeroProveedor] nvarchar(50) NULL,
+	[WebProveedor] [nvarchar](50) NULL,
+	[CodProducto] [nvarchar](50) NULL,
+	[NombreProducto] [nvarchar](100) NULL,
+	[MarcaProducto] [nvarchar](50) NULL,
+	[Categoria] [nvarchar](50) NULL,
+	[SodSuSursal] [nvarchar](50) NULL,
+	[NombreSucursal] [nvarchar](50) NULL,
+	[DireccionSucursal] [nvarchar](500) NULL,
+	[Region] [nvarchar](50) NULL,
+	[Departamento] [nvarchar](50) NULL,
+	[Unidades] int NULL,
+	[CostoU] decimal(10,2) NULL
+)
+
+CREATE TABLE [Ventas] (
+    [Fecha] date,
+    [CodProducto] nvarchar(50),
+    [NombreProducto] nvarchar(100),
+    [MarcaProducto] nvarchar(50),
+    [Categoria] nvarchar(50),
+    [SodSuSursal] nvarchar(50),
+    [NombreSucursal] nvarchar(50),
+    [DireccionSucursal] nvarchar(500),
+    [Region] nvarchar(50),
+    [Departamento] nvarchar(50),
+    [CodigoCliente] nvarchar(10),
+    [NombreCliente] nvarchar(250),
+    [TipoCliente] nvarchar(50),
+    [DireccionCliente] nvarchar(500),
+    [NumeroCliente] nvarchar(50),
+    [CodVendedor] nvarchar(50),
+    [NombreVendedor] nvarchar(50),
+    [Vacacionista] bit,
+	[Unidades] int,
+    [PrecioUnitario] decimal(10,2)
+)

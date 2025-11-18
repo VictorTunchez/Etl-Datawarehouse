@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="XEPDB1.SYSTEM"
+  DTS:DTSID="{B4AC11AD-0307-466A-AB3D-896E06FF9BEF}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=XEPDB1;User ID=SYSTEM;Provider=OraOLEDB.Oracle.1;Persist Security Info=True;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAmQ3b5KKXIkGrY4zEt6r5/wAAAAACAAAAAAAQZgAAAAEAACAAAABF2DgJgdaEQvRVDYvRtkHMRszVn0+O7lZtmPxAkERraQAAAAAOgAAAAAIAACAAAAByKBE4ygLnPU0XL+2fQuptB3H/5c7SIdWmrCpK24Hv/IAAAACzh0etIHdaqCTxx3gmWa2/1QMa7kKcn4DdWKRJyC9K5BvowIbO8K5PZhMFZtTT1SnoRJStMCDa730EEMjRJjNQrJ1TjobXGcaqqFQC1KJVZkELmsdrK54lKckVx4Wkm8wQHoFHGoBGOTSXuuxjEgCOUD/8QbO3mZC3Aw4grYUrUEAAAACiiGXyKCu+WFRJupZeY0P2ZukvV4yMZDQYC33E6YQZiUZlg7cphJYUSxNh5bfknSQ51absh6Q3hVih0LpkN8k+</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
